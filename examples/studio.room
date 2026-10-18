@@ -1,0 +1,17 @@
+# Studio A: a 6.0 x 4.0 x 2.8 m control room, metric.
+room Studio A
+units m
+size 6.0 4.0 2.8
+directivity 1
+
+# label, area in m2, material
+surface north_wall 16.8 painted_brick
+surface south_wall 16.8 glass
+surface east_wall 11.2 wood_panel
+surface west_wall 11.2 plaster
+surface floor 24.0 concrete
+surface ceiling 24.0 plaster
+
+# Planned changes, applied only in the "treated" scenario.
+treat floor carpet
+treat ceiling acoustic_tile
